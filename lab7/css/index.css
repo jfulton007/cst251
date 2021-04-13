@@ -1,0 +1,36 @@
+body{
+  border-radius: 40px;
+  margin: auto;
+  background-color: black;
+  width: auto;
+  height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, Arial, sans-serif;
+}
+div#content{
+  border-radius: 22px;
+
+}
+div#portrait{
+  border-radius: 22px;
+  margin: auto;
+  background-color: grey;
+  width: auto;
+  height: auto;
+  padding-right;
+}
+div#problems{
+  border-radius: 50px;
+  margin: auto;
+  background-color: red;
+  width: auto;
+  height: auto;
+}
+div#results{
+  border-radius: 70px;
+  margin: auto;
+  background-color: green;
+  width: auto;
+  height: auto;
+}
