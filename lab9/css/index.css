@@ -1,0 +1,59 @@
+body{
+  border-radius: 600px;
+  margin: auto;
+  background-color: grey;
+  width: auto;
+  height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, Arial, sans-serif;
+}
+div#content{
+  border-radius: 600px;
+  margin: left;
+  padding: 1px;
+  border-radius: 400px;
+  color: white;
+  width: 200px;
+  height: 200px;
+
+}
+div#content:hover{
+  transform:scale(1.1);
+}
+div#portrait{
+  border-radius: 600px;
+  margin: auto;
+  background-color: blue;
+  width: 2000px;
+  height: 100px;
+  text-align: center;
+}
+div#problems{
+  border-radius: 600px;
+  margin: auto;
+  background-color: red;
+  width: 2000px;
+  height: 100px;
+  text-align: center;
+}
+div#results{
+  border-radius: 600px;
+  margin: auto;
+  background-color: green;
+  width: 2000px;
+  height: 100px;
+  text-align: center;
+}
+.test3{
+  font-family: Arial;
+  font-size: 20px;
+}
+.test2{
+  font-family: Arial;
+  font-size: 20px;
+}
+.test1{
+  font-family: Arial;
+  font-size: 20px;
+}
