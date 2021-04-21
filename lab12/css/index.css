@@ -1,0 +1,96 @@
+body{
+  border-radius: 600px;
+  margin: auto;
+  background-color: grey;
+  width: auto;
+  height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+}
+div#content{
+  border-radius: 600px;
+  margin: left;
+  padding: 1px;
+  border-radius: 400px;
+  color: white;
+  width: 150px;
+  height: 200px;
+  text-transform: uppercase;
+
+}
+div#floated{
+  float: right;
+  clear: right;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+}
+div#center-horz{
+  text-align: center;
+}
+img#center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img#center-both{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+aside{
+  padding: 10px;
+  border: double 5px black;
+  background-color: white;
+}
+aside#sidebar{
+  display:inline-block;
+  margin: 20px;
+  mid-width: 300px;
+  width: 32%;
+  float: right;
+
+}
+div#portrait{
+  border-radius: 400px;
+  margin: auto;
+  background-color: blue;
+  width: 2000px;
+  height: 100px;
+  text-align: center;
+}
+div#problems{
+  border-radius: 400px;
+  margin: auto;
+  background-color: red;
+  width: 2000px;
+  height: 100px;
+  text-align: center;
+}
+div#results{
+  border-radius: 400px;
+  margin: auto;
+  background-color: green;
+  width: 2000px;
+  height: 100px;
+  text-align: center;
+}
+.test3{
+  font-family: Arial;
+  font-size: 20px;
+}
+.test2{
+  font-family: Arial;
+  font-size: 20px;
+}
+.test1{
+  font-family: Arial;
+  font-size: 20px;
+}
