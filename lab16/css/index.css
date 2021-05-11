@@ -1,0 +1,29 @@
+.test3{
+  font-family: Arial;
+  font-size: 20px;
+}
+.test2{
+  font-family: Arial;
+  font-size: 20px;
+}
+.test1{
+  font-family: Arial;
+  font-size: 20px;
+}
+body:hover{
+  transform:scale(1.1);
+  text-transform: uppercase;
+}
+body{
+  background-image: url("../img/studying.png"), url("../img/deponia.jpg");
+  /*background-position: right bottom, left top;*/
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  transition: width 2s;
+}
+div#content{
+  text-shadow: 2px 2px #808080;
+  transition: width 3s;
+  column-count: 3;
+  colum-width: 10px;
+}
