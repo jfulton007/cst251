@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html>
+<head>
 <div class="container">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://api.jquery.com/" rel="stylesheet">
-<link href="https://popper.js.org/" rel=stylesheet">
-<meta>
-</div>
-<head>
+<link href="https://popper.js.org/" rel="stylesheet">
+<meta name="viewpoint" content="width=device-width,initial-scale=1">
   <title>Lab 19 - CSS Frameworks</title>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-  <div id="content">
+  <div class="container-fluid">
   <main>
-<div class="multi-bg"></div>
+<div class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="https://github.com/jfulton007/cst251">Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="lab19\css\index.css">CSS</a>
+        </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown">Previous Labs</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="C:\Users\josep\OneDrive\Documents\GitHub\cst251\lab18">Lab 18</a>
+          <a class="dropdown-item" href="C:\Users\josep\OneDrive\Documents\GitHub\cst251\lab17">Lab 17</a>
+            <a class="dropdown-item" href="C:\Users\josep\OneDrive\Documents\GitHub\cst251\lab16">Lab 16</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div-class="col-sm-8">
+      <header>
     <h1>Lab 19 - CSS Frameworks</h1>
-<div class="Test3">
-<div id="portrait">
-    <img src="img/serious.png" width=99px align="left">
-        <h1>Challenges</h1>
-        <p class="test3">The main challenge for me this week was just understanding what I was doing. I got the hang of it easily.
-
-        </p>
-</div>
-<div id="problems">
-    <img src="img/scared.png" width=99px align="left">
-        <h1>Problems</h1>
-        <p class="test2">My main issue was figuring out how certain CSS properties worked, but I got it.
-
-        </p>
-</div>
-<div id="results">
-  <img src="img/happy.png" width=99px align="left">
-        <h1>Results</h1>
-        <p class="test1">It looks great! Also, my image this week is of Rufus, a favorite character of mine.</p>
+  </header>
+  <section id="Challenges">
+  <p class="solid1">Challenges: My main challenge during this lab was how exactly a container worked.</p>
+  </section>
+  <section id="Problems">
+  <p class="solid2">Problems: The main issue of this lab for me was getting my dropdown to work.</p>
+  </section>
+  <section id="Results">
+  <p class="solid3">Results: The result is satisfactory, so I am happy!</p>
+  </section>
+  <div class="row">
+    <div class="col-sm-4">
+  <div id="pics">
+    <img src="img/serious.png" width=198px>
+    <img src="img/scared.png" width=198px>
+    <img src="img/happy.png" width=198px>
+    </div>
 </div>
 </div>
+</body>
